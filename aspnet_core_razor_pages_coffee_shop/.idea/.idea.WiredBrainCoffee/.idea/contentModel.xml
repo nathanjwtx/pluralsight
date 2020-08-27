@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\nathan\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\nathan\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_WiredBrainCoffee.576070409.00" t="ExcludeRecursive" />
+    <e p="C:\Users\nathan\repos\pluralsight\aspnet_core_razor_pages_coffee_shop" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="WiredBrainCoffee" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="bundleconfig.json" t="Include" />
+        <e p="Models" t="Include">
+          <e p="MenuItem.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="WiredBrainCoffee.AssemblyInfo.cs" t="Include" />
+              <e p="WiredBrainCoffee.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_Layout.cshtml" t="Include" />
+          <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Contact.cshtml" t="Include" />
+          <e p="Contact.cshtml.cs" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="Feedback.cshtml" t="Include" />
+          <e p="Feedback.cshtml.cs" t="Include" />
+          <e p="Index.cshtml" t="Include" />
+          <e p="Index.cshtml.cs" t="Include" />
+          <e p="Item.cshtml" t="Include" />
+          <e p="Item.cshtml.cs" t="Include" />
+          <e p="Menu.cshtml" t="Include" />
+          <e p="Menu.cshtml.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="IMenuService.cs" t="Include" />
+          <e p="MenuService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="WiredBrainCoffee.csproj" t="IncludeRecursive" />
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="bootstrap.css" t="Include" />
+            <e p="bootstrap.min.css" t="Include" />
+            <e p="wiredbrain.css" t="Include" />
+            <e p="wiredbrain.min.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="images" t="Include">
+            <e p="app.png" t="Include" />
+            <e p="bag.jpg" t="Include" />
+            <e p="bagel.jpg" t="Include" />
+            <e p="banner" t="Include">
+              <e p="banner-bag.png" t="Include" />
+              <e p="banner-ground.png" t="Include" />
+            </e>
+            <e p="beans.jpg" t="Include" />
+            <e p="coffee.jpg" t="Include" />
+            <e p="download-small.png" t="Include" />
+            <e p="granola.jpg" t="Include" />
+            <e p="ground.jpg" t="Include" />
+            <e p="menu" t="Include">
+              <e p="bagel.png" t="Include" />
+              <e p="beans.jpg" t="Include" />
+              <e p="granola.png" t="Include" />
+              <e p="ground.png" t="Include" />
+              <e p="PumpkinBread.png" t="Include" />
+              <e p="strawberries.png" t="Include" />
+            </e>
+            <e p="placeholder.png" t="Include" />
+            <e p="pluralsight.jpg" t="Include" />
+            <e p="PumpkinBread.png" t="Include" />
+            <e p="strawberries.png" t="Include" />
+            <e p="table.jpg" t="Include" />
+            <e p="trail.jpg" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="bootstrap.js" t="Include" />
+            <e p="bootstrap.js.map" t="Include" />
+            <e p="bootstrap.min.js" t="Include" />
+            <e p="jquery.js" t="Include" />
+            <e p="jquery.min.js" t="Include" />
+            <e p="jquery.min.map" t="Include" />
+            <e p="jquery.slim.js" t="Include" />
+            <e p="jquery.slim.min.js" t="Include" />
+            <e p="jquery.slim.min.map" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="WiredBrainCoffee.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
