@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluralSightOdeToFood", "PluralSightOdeToFood\PluralSightOdeToFood.csproj", "{D3C20332-9ADB-4C40-8956-D80A619B60A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Core", "OdeToFood.Core\OdeToFood.Core.csproj", "{D4B8DDFA-A945-49AE-9343-CB2D1BE490B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdeToFood.Data", "OdeToFood.Data\OdeToFood.Data.csproj", "{28CC1CD1-D6BB-4D4D-AE46-BAADD029F796}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3C20332-9ADB-4C40-8956-D80A619B60A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C20332-9ADB-4C40-8956-D80A619B60A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C20332-9ADB-4C40-8956-D80A619B60A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C20332-9ADB-4C40-8956-D80A619B60A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B8DDFA-A945-49AE-9343-CB2D1BE490B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B8DDFA-A945-49AE-9343-CB2D1BE490B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B8DDFA-A945-49AE-9343-CB2D1BE490B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B8DDFA-A945-49AE-9343-CB2D1BE490B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28CC1CD1-D6BB-4D4D-AE46-BAADD029F796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CC1CD1-D6BB-4D4D-AE46-BAADD029F796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28CC1CD1-D6BB-4D4D-AE46-BAADD029F796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28CC1CD1-D6BB-4D4D-AE46-BAADD029F796}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
