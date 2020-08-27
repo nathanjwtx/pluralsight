@@ -1,0 +1,15 @@
+﻿@page "{restaurantId}"
+@model PluralSightOdeToFood.Pages.Restaurants.DeleteModel
+@{
+}
+
+<h2>Delete!</h2>
+<div class="alert alert-danger">
+    Are you sure you want to delete @Model.Restaurant.Name?
+</div>
+<form method="post">
+    <button type="submit" class="alert-danger">Yes!</button>
+    <a asp-page="List" class="btn btn-primary">Cancel</a>
+</form>
+
+@* default layout taken from the layout specified in _ViewStart *@

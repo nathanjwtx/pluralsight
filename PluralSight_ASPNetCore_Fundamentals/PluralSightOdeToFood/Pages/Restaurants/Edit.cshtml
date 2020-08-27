@@ -1,0 +1,48 @@
+﻿@page "{restaurantId:int?}"
+@using OdeToFood.Core
+@model PluralSightOdeToFood.Pages.Restaurants.Edit
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Edit</title>
+</head>
+<body>
+<div>
+    <h2>Editing @Model.Restaurant.Name</h2>
+    <form method="post">
+        <input type="hidden" asp-for="Restaurant.Id" />
+        <div class="form-group">
+            <label asp-for="Restaurant.Name"></label>
+            <input asp-for="Restaurant.Name" class="form-control"/>
+            <span class="text-danger" asp-validation-for="Restaurant.Name"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Restaurant.Location"></label>
+            <input asp-for="Restaurant.Location" class="form-control"/>
+            <span class="text-danger" asp-validation-for="Restaurant.Location"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Restaurant.Cuisine"></label>
+            <select class="form-control" asp-for="Restaurant.Cuisine"
+                    asp-items="Model.Cuisines"
+            >        
+            </select>
+        </div>
+        <button type="submit" class="btn btn-outline-primary">Submit</button>
+    </form>
+    <span></span>
+    <a asp-page="./List">
+        <button class="btn btn-outline-info">Restaurant List</button>
+    </a>
+</div>
+</body>
+</html>
+
+@* where possible it is better to do this in the page model *@
+@* asp-items="Html.GetEnumSelectList<CuisineType>()"> *@
