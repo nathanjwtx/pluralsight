@@ -22,7 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6589f726-a11e-4f8f-9407-3e1738cb97ce" name="Default Changelist" comment="" />
+    <list default="true" id="6589f726-a11e-4f8f-9407-3e1738cb97ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WiredBrainCoffee/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WiredBrainCoffee/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WiredBrainCoffee/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WiredBrainCoffee/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee/Models/MenuItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee/Models/MenuItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee/Pages/Feedback.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee/Pages/Feedback.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee/Pages/Item.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee/Pages/Item.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee/Pages/Item.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee/Pages/Item.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee/Pages/Menu.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee/Pages/Menu.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee/Pages/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee/Pages/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WiredBrainCoffee/Services/MenuService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WiredBrainCoffee/Services/MenuService.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,8 +47,15 @@
       <list>
         <option value="$PROJECT_DIR$/WiredBrainCoffee/Properties/launchSettings.json" />
         <option value="$PROJECT_DIR$/WiredBrainCoffee/Pages/Menu.cshtml.cs" />
-        <option value="$PROJECT_DIR$/WiredBrainCoffee/Pages/Menu.cshtml" />
         <option value="$PROJECT_DIR$/WiredBrainCoffee/WiredBrainCoffee.csproj" />
+        <option value="$PROJECT_DIR$/WiredBrainCoffee/Pages/Feedback.cshtml" />
+        <option value="$PROJECT_DIR$/WiredBrainCoffee/Models/MenuItem.cs" />
+        <option value="$PROJECT_DIR$/WiredBrainCoffee/Pages/Item.cshtml.cs" />
+        <option value="$PROJECT_DIR$/WiredBrainCoffee/Pages/Item.cshtml" />
+        <option value="$PROJECT_DIR$/WiredBrainCoffee/Services/MenuService.cs" />
+        <option value="$PROJECT_DIR$/WiredBrainCoffee/Pages/Menu.cshtml" />
+        <option value="$PROJECT_DIR$/WiredBrainCoffee/Pages/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/WiredBrainCoffee/Pages/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -98,13 +116,14 @@
       <option name="presentableId" value="Default" />
       <updated>1598536347520</updated>
       <workItem from="1598536351114" duration="1870000" />
+      <workItem from="1598615717442" duration="2815000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -116,30 +135,35 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1879" height="274" key="GridCell.Tab.0.bottom" timestamp="1598539388682">
+    <state width="1879" height="274" key="GridCell.Tab.0.bottom" timestamp="1598617642851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="274" key="GridCell.Tab.0.bottom/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1598539388682" />
-    <state width="1879" height="274" key="GridCell.Tab.0.center" timestamp="1598539388682">
+    <state width="1879" height="274" key="GridCell.Tab.0.bottom/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1598617642851" />
+    <state width="1879" height="274" key="GridCell.Tab.0.center" timestamp="1598617642851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="274" key="GridCell.Tab.0.center/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1598539388682" />
-    <state width="1879" height="274" key="GridCell.Tab.0.left" timestamp="1598539388682">
+    <state width="1879" height="274" key="GridCell.Tab.0.center/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1598617642851" />
+    <state width="1879" height="274" key="GridCell.Tab.0.left" timestamp="1598617642851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="274" key="GridCell.Tab.0.left/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1598539388682" />
-    <state width="1879" height="274" key="GridCell.Tab.0.right" timestamp="1598539388682">
+    <state width="1879" height="274" key="GridCell.Tab.0.left/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1598617642851" />
+    <state width="1879" height="274" key="GridCell.Tab.0.right" timestamp="1598617642851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1879" height="274" key="GridCell.Tab.0.right/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1598539388682" />
+    <state width="1879" height="274" key="GridCell.Tab.0.right/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1598617642851" />
     <state x="491" y="165" key="SettingsEditor" timestamp="1598539381535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="491" y="165" key="SettingsEditor/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1598539381535" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1598617577709">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/-1920.8.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1598617577709" />
   </component>
 </project>

@@ -61,6 +61,7 @@
             <e p="app.png" t="Include" />
             <e p="bag.jpg" t="Include" />
             <e p="bagel.jpg" t="Include" />
+            <e p="bagel.png" t="Include" />
             <e p="banner" t="Include">
               <e p="banner-bag.png" t="Include" />
               <e p="banner-ground.png" t="Include" />
@@ -69,7 +70,9 @@
             <e p="coffee.jpg" t="Include" />
             <e p="download-small.png" t="Include" />
             <e p="granola.jpg" t="Include" />
+            <e p="granola.png" t="Include" />
             <e p="ground.jpg" t="Include" />
+            <e p="ground.png" t="Include" />
             <e p="menu" t="Include">
               <e p="bagel.png" t="Include" />
               <e p="beans.jpg" t="Include" />

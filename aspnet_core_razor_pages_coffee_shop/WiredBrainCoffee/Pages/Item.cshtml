@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{id}"
 @model ItemModel
 @{
     ViewData["Title"] = "About";
@@ -6,18 +6,19 @@
 
 <div class="container">
     <h1 class="mt-4 mb-3">
-        Frosted Pumpkin Bread
+        @* Frosted Pumpkin Bread *@
+        @Model.Item.Name
     </h1>
     <hr />
     <h3>A Taste of Autumn.</h3>
 
     <div class="row">
         <div class="col-lg-8">
-            <img class="img-fluid rounded" src="~/images/PumpkinBread.png" alt="">
+            <img class="img-fluid rounded" src="~/images/@Model.Item.ImageFile" alt="">
             <hr>
             <p>Available starting at 8:00 AM</p>
             <hr>
-            <p class="lead">A seasonal delight we offer every autumn.  Pumpkin bread with just a bit of spice, cream cheese frosting with just a hint of home.</p>
+            <p class="lead">@Model.Item.Summary</p>
             <blockquote class="blockquote">
                 <p class="mb-0">I feel at home every time I take a bite.</p>
                 <footer class="blockquote-footer">
@@ -25,8 +26,7 @@
                     <cite title="Source Title">Happy Customer</cite>
                 </footer>
             </blockquote>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
+            <p class="lead">@Model.Item.Description</p>
             <hr>
         </div>
         <div class="col-md-4">

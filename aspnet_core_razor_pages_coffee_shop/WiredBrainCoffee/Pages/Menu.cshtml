@@ -16,15 +16,20 @@
         {
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="card h-100">
-                    <a href="/item"><img class="card-img-top" src="~/images/menu/@item.ImageFile" alt=""></a>
+                    <a href="/item">
+                        <img asp-append-version="true" class="card-img-top" src="~/images/menu/@item.ImageFile" alt="">
+                    </a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a class="color-main" href="#">@item.Name</a>
                         </h4>
                         <p class="card-text">@item.Summary</p>
                     </div>
+                    @* <div class="card-footer"> *@
+                    @*     <a href="/item" class="btn btn-success w-100">Details & Nutrition</a> *@
+                    @* </div> *@
                     <div class="card-footer">
-                        <a href="/item" class="btn btn-success w-100">Details & Nutrition</a>
+                        <a asp-page="item" asp-route-id="@item.Id" class="btn btn-success w-100">Details & Nutrition</a>
                     </div>
                 </div>
             </div>
